@@ -1,0 +1,1172 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(rgb(255, 136, 0), rgb(255, 153, 0), rgb(255, 166, 32), rgb(255, 183, 76), rgb(255, 195, 106));
+}
+
+.container01{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    margin-top: 60px;
+}
+
+.Home{
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 35px;
+    border-radius: 16px;
+}
+
+.Home:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.9s;
+}
+
+.Sobre{
+    display: flex;
+    justify-content: center;
+    width: 110px;
+    height: 35px;
+    border-radius: 16px;
+    color: black;
+}
+
+.items a{
+    text-decoration: none;
+    color: black;
+}
+
+.Sobre:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.9s;
+}
+
+.Contato{
+    display: flex;
+    justify-content: center;
+    width: 89px;
+    height: 35px;
+    border-radius: 16px;
+}
+
+.Contato:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 0.9s;
+}
+
+.items{
+    display: flex;
+    gap: 30px;
+    font-size: 21px;
+    margin-left: 1600px;
+    margin-top: -50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo img{
+    display: flex;
+    width: 220px;
+    margin-left: 46px;
+    margin-top: 30px;
+}
+
+.container02{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.cardCima{
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+    height: 680px;
+    background: linear-gradient(white, rgba(255, 255, 255, 0.603), rgba(255, 255, 255, 0.295));
+    box-shadow: 1px 0px 25px;
+    border-radius: 30px;
+}
+
+.infoCima{
+    width: 599px;
+    height: 100px;
+    font-size: 19px;
+   
+}
+
+.textCard{
+    margin-top: 140px;
+    margin-left: 20px;
+}
+
+.imgCard{
+    margin-right: 100px;
+}
+
+.cardImg{
+    display: flex;
+    margin-left: -150px;
+    margin-top: 130px;
+}
+
+.imgCard{
+    width: 600px;
+    margin-left: 70px;
+    margin-top: -90px;
+}
+
+.title{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.titleJogos{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.678);
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titledef h2{
+    margin: 0;
+    font-size: 40px;
+}
+
+.cont03title{
+    font-size: 30px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+
+.cardJogo{
+    width: 330px;
+    height: 420px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.cardJogo:hover{
+    width: 350px;
+    height: 440px;
+    transition: 0.9s;
+    background-color: rgba(255, 255, 255, 0.603);
+    box-shadow: 3px 0px 25px;
+}
+
+.jg01{
+    width: 100%;
+    height: 370px;
+    border-radius: 10px;
+
+}
+
+.infoJogos{
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+.cardsJogos{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 100px;
+}
+
+.cardpokebolas{
+    width: 300px;
+    height: 370px;
+    border-radius: 25px;
+    background-color: white;
+    background: linear-gradient(rgb(255, 251, 0), rgb(255, 252, 88), rgb(255, 253, 143), rgb(255, 254, 198));
+    box-shadow: 1px 0px 15px;
+    margin-top: 100px;
+}
+
+.pokeimg img{
+    display: flex;
+    width: 160px;
+    margin-top: 0px;
+}
+
+.pokeimg img:hover{
+    width: 185px;
+    transition: 1.5s;
+}
+
+.pokeimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.boxtitle{
+    display: flex;
+    justify-content: center;
+    margin-top: px;
+    border-radius: 18px;
+}
+
+.boxtitle:hover{
+    background-color: rgba(255, 255, 255, 0.349);
+    width: 100%;
+}
+
+.p{
+    font-size: 18px;
+}
+
+.box{
+    justify-content: center;
+}
+
+.container04{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+.titlepokbolas{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.678);
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.sectitle{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.titlesec{
+    text-align: center;
+    width: 500px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.678);
+    border-radius: 25px;
+}
+
+.boll{
+    margin-top: 25px;
+}
+
+.bolinfo{
+    margin-top: -20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.rodape{
+    width: 100%;
+    height: 190px;
+    background-color: white;
+    margin-top: 1000px;
+    border-radius: 15px;
+}
+
+.logoRodape{
+    display: flex;
+    justify-content: center;
+}
+
+.logordp{
+    margin-top: 50px;
+    width: 250px;
+}
+
+.sobreNoslink{
+    margin-left: 20px;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+
+.titlelend{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+/** card01 poklendarios**/
+.cardpokemons_articuno{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(37, 130, 206), rgb(90, 153, 204), rgb(150, 174, 194));
+    margin-top: 100px;
+    box-shadow: 1px 0px 12px;
+}
+
+.imgpoke_articuno{
+    display: flex;
+    justify-content: center;
+}
+
+.carpokeimg_articuno img{
+    display: flex;
+    width: 253px;
+    margin-top: 18px;
+}
+
+.tipos_articuno{
+    display: flex;
+    justify-content: center;
+}
+
+.tipo01_articuno{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tipo01text_articuno{
+    text-align: center;
+}
+
+/** card02 poklendarios**/
+.cardpokemons_zapdos{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(255, 187, 0), rgb(255, 225, 58), rgb(255, 244, 87));
+    margin-top: 100px;
+    box-shadow: 1px 0px 12px;
+}
+
+.imgpoke_zapdos{
+    display: flex;
+    justify-content: center;
+}
+
+.carpokeimg_zapdos img{
+    display: flex;
+    width: 255px;
+    margin-top: 18px;
+}
+
+.tipos_zapdos{
+    display: flex;
+    justify-content: center;
+}
+
+.tipo01_zapdos{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tipo01text_zapdos{
+    text-align: center;
+}
+
+/** card03 poklendarios**/
+.cardpokemons_moltres{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(255, 143, 51), rgb(255, 196, 0), rgb(255, 204, 39));
+    margin-top: 100px;
+    box-shadow: 1px 0px 12px;
+}
+
+.imgpoke_moltres{
+    display: flex;
+    justify-content: center;
+}
+
+.carpokeimg_moltres img{
+    display: flex;
+    width: 234px;
+    margin-top: 18px;
+}
+
+.tipos_moltres{
+    display: flex;
+    justify-content: center;
+}
+
+.tipo01_moltres{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tipo01text_moltres{
+    text-align: center;
+}
+
+/** card04 poklendarios**/
+.cardpokemons_mewtwo{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(198, 118, 255), rgb(229, 195, 255), rgb(247, 237, 255));
+    margin-top: 100px;
+    box-shadow: 1px 0px 12px;
+}
+
+.imgpoke_mewtwo{
+    display: flex;
+    justify-content: center;
+}
+
+.carpokeimg_mewtwo img{
+    display: flex;
+    width: 190px;
+    margin-top: 18px;
+}
+
+.tipos_mewtwo{
+    display: flex;
+    justify-content: center;
+}
+
+.tipo01_mewtwo{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tipo01text_mewtwo{
+    text-align: center;
+}
+
+/** card05 poklendarios**/
+.cardpokemons_mew{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(198, 118, 255), rgb(229, 195, 255), rgb(247, 237, 255));
+    margin-top: 100px;
+    box-shadow: 1px 0px 12px;
+}
+
+.imgpoke_mew{
+    display: flex;
+    justify-content: center;
+}
+
+.carpokeimg_mew img{
+    display: flex;
+    width: 235px;
+    margin-top: 18px;
+}
+
+.tipos_mew{
+    display: flex;
+    justify-content: center;
+}
+
+.tipo01_mew{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tipo01text_mew{
+    text-align: center;
+}
+
+.container05{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+/** card06 poklendarios**/
+.cardpokemons_raikou{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(255, 196, 0), rgb(250, 221, 125), rgb(255, 243, 204));
+    margin-top: 100px;
+    box-shadow: 1px 0px 12px;
+}
+
+.imgpoke_raikou{
+    display: flex;
+    justify-content: center;
+}
+
+.carpokeimg_raikou img{
+    display: flex;
+    width: 180px;
+    margin-top: 18px;
+}
+
+.tipos_raikou{
+    display: flex;
+    justify-content: center;
+}
+
+.tipo01_raikou{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tipo01text_raikou{
+    text-align: center;
+}
+
+/** card07 poklendarios**/
+.cardpokemons_entei{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(161, 95, 9), rgb(114, 84, 45), rgb(216, 198, 174));
+    margin-top: 100px;
+    box-shadow: 1px 0px 12px;
+}
+
+.imgpoke_entei{
+    display: flex;
+    justify-content: center;
+}
+
+.carpokeimg_entei img{
+    display: flex;
+    width: 230px;
+    margin-top: 18px;
+}
+
+.tipos_entei{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.tipo01_entei{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tipo01text_entei{
+    text-align: center;
+}
+
+/** card08 poklendarios**/
+.cardpokemons_suicune{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(65, 211, 255), rgb(202, 132, 255), rgb(247, 237, 255));
+    margin-top: 100px;
+    box-shadow: 1px 0px 12px;
+}
+
+.imgpoke_suicune{
+    display: flex;
+    justify-content: center;
+}
+
+.carpokeimg_suicune img{
+    display: flex;
+    width: 250px;
+    margin-top: 18px;
+}
+
+.tipos_suicune{
+    display: flex;
+    justify-content: center;
+}
+
+.tipo01_suicune{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tipo01text_suicune{
+    text-align: center;
+}
+
+/** card09 poklendarios**/
+.cardpokemons_lugia{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(0, 102, 255), rgb(165, 211, 255), rgb(247, 251, 255));
+    margin-top: 100px;
+    box-shadow: 1px 0px 12px;
+}
+
+.imgpoke_lugia{
+    display: flex;
+    justify-content: center;
+}
+
+.carpokeimg_lugia img{
+    display: flex;
+    width: 240px;
+    margin-top: 18px;
+}
+
+.tipos_lugia{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.tipo01_lugia{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tipo01text_lugia{
+    text-align: center;
+}
+
+/** card10 poklendarios**/
+.cardpokemons_ho{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(255, 174, 0), rgb(156, 216, 78), rgb(246, 255, 235));
+    margin-top: 100px;
+    box-shadow: 1px 0px 12px;
+}
+
+.imgpoke_ho{
+    display: flex;
+    justify-content: center;
+}
+
+.carpokeimg_ho img{
+    display: flex;
+    width: 200px;
+    margin-top: 18px;
+}
+
+.tipos_ho{
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+}
+
+.tipo01_ho{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tipo01text_ho{
+    text-align: center;
+}
+
+/** card11 poklendarios**/
+.cardpokemons_celebi{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(67, 158, 67), rgb(135, 182, 135), rgb(227, 248, 227));
+    margin-top: 100px;
+    box-shadow: 1px 0px 12px;
+}
+
+.imgpoke_celebi{
+    display: flex;
+    justify-content: center;
+}
+
+.carpokeimg_celebi img{
+    display: flex;
+    width: 240px;
+    margin-top: 18px;
+}
+
+.tipos_celebi{
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+}
+
+.tipo01_celebi{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tipo01text_celebi{
+    text-align: center;
+}
+
+.container06{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+/** card12 poklendarios**/
+.cardpokemons_regirock{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(212, 89, 89), rgb(233, 123, 123), rgb(240, 204, 204));
+    margin-top: 100px;
+    box-shadow: 1px 0px 12px;
+}
+
+.imgpoke_regirock{
+    display: flex;
+    justify-content: center;
+}
+
+.carpokeimg_regirock img{
+    display: flex;
+    width: 210px;
+    margin-top: 18px;
+}
+
+.tipos_regirock{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.tipo01_regirock{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tipo01text_regirock{
+    text-align: center;
+}
+
+/** card13 poklendarios**/
+.cardpokemons_regice{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(36, 171, 250), rgb(129, 209, 255), rgb(226, 244, 255));
+    margin-top: 100px;
+    box-shadow: 1px 0px 12px;
+}
+
+.imgpoke_regice{
+    display: flex;
+    justify-content: center;
+}
+
+.carpokeimg_regice img{
+    display: flex;
+    width: 240px;
+    margin-top: 18px;
+}
+
+.tipos_regice{
+    display: flex;
+    justify-content: center;
+}
+
+.tipo01_regice{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tipo01text_regice{
+    text-align: center;
+}
+
+/** card14 poklendarios**/
+.cardpokemons_regiceel{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(170, 168, 168), rgb(206, 206, 206), rgb(255, 255, 255));
+    margin-top: 100px;
+    box-shadow: 1px 0px 12px;
+}
+
+.imgpoke_regiceel{
+    display: flex;
+    justify-content: center;
+}
+
+.carpokeimg_regiceel img{
+    display: flex;
+    width: 240px;
+    margin-top: 18px;
+}
+
+.tipos_regiceel{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.tipo01_regiceel{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tipo01text_regiceel{
+    text-align: center;
+}
+
+/** card15 poklendarios**/
+.cardpokemons_Latias{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(238, 79, 79), rgb(238, 164, 164), white);
+    margin-top: 100px;
+    box-shadow: 1px 0px 12px;
+}
+
+.imgpoke_Latias{
+    display: flex;
+    justify-content: center;
+}
+
+.carpokeimg_Latias img{
+    display: flex;
+    width: 240px;
+    margin-top: 18px;
+}
+
+.tipos_Latias{
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+}
+
+.tipo01_Latias{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tipo01text_Latias{
+    text-align: center;
+}
+
+/** card16 poklendarios**/
+.cardpokemons_Latios{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(40, 126, 255), rgb(136, 184, 255), rgb(231, 240, 255));
+    margin-top: 100px;
+    box-shadow: 1px 0px 12px;
+}
+
+.imgpoke_Latios{
+    display: flex;
+    justify-content: center;
+}
+
+.carpokeimg_Latios img{
+    display: flex;
+    width: 240px;
+    margin-top: 18px;
+}
+
+.tipos_Latios{
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+}
+
+.tipo01_Latios{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tipo01text_Latios{
+    text-align: center;
+}
+
+/** card17 poklendarios**/
+.cardpokemons_Kyogre{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(52, 52, 197), rgb(111, 111, 255), rgb(182, 182, 255));
+    margin-top: 100px;
+    box-shadow: 1px 0px 12px;
+}
+
+.imgpoke_Kyogre{
+    display: flex;
+    justify-content: center;
+}
+
+.carpokeimg_Kyogre img{
+    display: flex;
+    width: 230px;
+    margin-top: 18px;
+}
+
+.tipos_Kyogre{
+    display: flex;
+    justify-content: center;
+
+}
+
+.tipo01_Kyogre{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tipo01text_Kyogre{
+    text-align: center;
+}
+
+/** card17 poklendarios**/
+.cardpokemons_Groudon{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(190, 19, 19), rgb(180, 103, 103), rgb(185, 178, 178));
+    margin-top: 100px;
+    box-shadow: 1px 0px 12px;
+}
+
+.imgpoke_Groudon{
+    display: flex;
+    justify-content: center;
+}
+
+.carpokeimg_Groudon img{
+    display: flex;
+    width: 200px;
+    margin-top: 18px;
+}
+
+.tipos_Groudon{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.tipo01_Groudon{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tipo01text_Groudon{
+    text-align: center;
+}
+
+/** card18 poklendarios**/
+.cardpokemons_Rayquaza{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(94, 138, 94), rgb(151, 180, 151), rgb(207, 223, 207));
+    margin-top: 100px;
+    box-shadow: 1px 0px 12px;
+}
+
+.imgpoke_Rayquaza{
+    display: flex;
+    justify-content: center;
+}
+
+.carpokeimg_Rayquaza img{
+    display: flex;
+    width: 240px;
+    margin-top: 18px;
+}
+
+.tipos_Rayquaza{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.tipo01_Rayquaza{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tipo01text_Rayquaza{
+    text-align: center;
+}
+
+/** card19 poklendarios**/
+.cardpokemons_Jirachi{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(58, 155, 235), rgb(235, 247, 135), rgb(255, 255, 159));
+    margin-top: 100px;
+    box-shadow: 1px 0px 12px;
+}
+
+.imgpoke_Jirachi{
+    display: flex;
+    justify-content: center;
+}
+
+.carpokeimg_Jirachi img{
+    display: flex;
+    width: 225px;
+    margin-top: 18px;
+}
+
+.tipos_Jirachi{
+    display: flex;
+    justify-content: center;
+}
+
+.tipo01_Jirachi{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tipo01text_Jirachi{
+    text-align: center;
+}
+
+/** card20 poklendarios**/
+.cardpokemons_Deoxys{
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(255, 145, 0), rgb(255, 170, 58), rgb(49, 172, 253), rgb(183, 226, 255));
+    margin-top: 100px;
+    box-shadow: 1px 0px 12px;
+}
+
+.imgpoke_Deoxys{
+    display: flex;
+    justify-content: center;
+}
+
+.carpokeimg_Deoxys img{
+    display: flex;
+    width: 245px;
+    margin-top: 18px;
+}
+
+.tipos_Deoxys{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tipo01_Deoxys{
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.tipo01text_Deoxys{
+    text-align: center;
+}
+
+.container07{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
